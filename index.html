@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head> 
-   <script>
-    function decToBin() {
-  var num = document.getElementById('userInput').value;
-  var result = [];
- while (num >= 1) {
-   result.unshift(num % 2);
-   num = Math.floor(num / 2);
    
-    
- }
-
- document.getElementById('conversion').innerHTML = result;
-}
-</script>
  </head>
 <body>
 <h1>Decimal to binary converter </h2>
@@ -22,7 +9,7 @@
 <input onclick="decToBin()" type="submit" value="ok">
 <p id="conversion">
 </p>
-
+ <script src="script.js"></script>
  </body>
 
 </html>
