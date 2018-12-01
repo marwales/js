@@ -4,11 +4,9 @@ function decToBin() {
  while (num >= 1) {
    result.unshift(num % 2);
    num = Math.floor(num / 2);
-   
-    
+
+
  }
 
- document.getElementById('conversion').innerHTML = result;
+ document.getElementById('conversion').innerHTML = result.join('');
 }
-  
-
